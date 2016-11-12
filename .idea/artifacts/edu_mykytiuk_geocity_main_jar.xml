@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="edu.mykytiuk.geocity_main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/edu_mykytiuk_geocity_main_jar</output-path>
+    <root id="archive" name="edu.mykytiuk.geocity_main.jar">
+      <element id="module-output" name="edu.mykytiuk.geocity_main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.json/json/20160810/aca5eb39e2a12fddd6c472b240afe9ebea3a6733/json-20160810.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
