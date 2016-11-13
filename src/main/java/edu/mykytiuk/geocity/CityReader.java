@@ -34,7 +34,7 @@ public class CityReader {
     private void read() {
         try(BufferedReader fileReader = new BufferedReader(new InputStreamReader(new FileInputStream(fileName)))) {
             while (fileReader.ready()) {
-                cityList.add(fileReader.readLine());
+                cityList.add(fileReader.readLine().replace(" ", "?"));
             }
         }
         catch (IOException e) {

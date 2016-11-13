@@ -32,7 +32,7 @@ public class Main {
             String cityLocation = new CityLocator(city).locate();
 
             //output
-            System.out.print(city + ": ");
+            System.out.print(city.replace("?", " ") + ": ");
             System.out.println(cityLocation);
         }
 
